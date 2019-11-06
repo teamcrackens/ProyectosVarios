@@ -1,0 +1,29 @@
+[debug] [2019-10-09T03:04:23.052Z] ----------------------------------------------------------------------
+[debug] [2019-10-09T03:04:23.055Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\apere\AppData\Local\Yarn\Data\global\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-10-09T03:04:23.055Z] CLI Version:   7.4.0
+[debug] [2019-10-09T03:04:23.055Z] Platform:      win32
+[debug] [2019-10-09T03:04:23.055Z] Node Version:  v8.16.1
+[debug] [2019-10-09T03:04:23.056Z] Time:          Wed Oct 09 2019 00:04:23 GMT-0300 (Hora estándar de Argentina)
+[debug] [2019-10-09T03:04:23.056Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-10-09T03:04:23.095Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-10-09T03:04:23.097Z] > authorizing via signed-in user
+[debug] [2019-10-09T03:04:23.097Z] [iam] checking project instacool-a3453 for permissions ["firebase.projects.get"]
+[debug] [2019-10-09T03:04:23.098Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-10-09T03:04:23.099Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-10-09T03:04:23.291Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-09T03:04:23.331Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/instacool-a3453:testIamPermissions  
+
+[debug] [2019-10-09T03:04:24.577Z] <<< HTTP RESPONSE 200
+[debug] [2019-10-09T03:04:24.579Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/instacool-a3453  
+ 
+[debug] [2019-10-09T03:04:25.752Z] <<< HTTP RESPONSE 200
+[info] +  functions: Using node@8 from host.
+[info] +  functions: Emulator started at http://localhost:5000
+[info] i  functions: Watching "C:\Users\apere\source\repos\instacool\functions" for Cloud Functions...
+[debug] [2019-10-09T03:04:26.790Z] [runtime-status] Functions runtime initialized. {"cwd":"C:\\Users\\apere\\source\\repos\\instacool\\functions","node_version":"8.16.1"}
+[debug] [2019-10-09T03:04:26.791Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-10-09T03:04:26.793Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.6.0","resolution":"C:\\Users\\apere\\source\\repos\\instacool\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[warn] !  The Cloud Functions emulator requires the module "firebase-functions" to be installed as a dependency. To fix this, run "npm install --save firebase-functions" in your functions directory.
+[info] i  functions: Your functions could not be parsed due to an issue with your node_modules (see above)

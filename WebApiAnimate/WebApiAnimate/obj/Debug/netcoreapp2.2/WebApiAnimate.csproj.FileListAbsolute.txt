@@ -1,0 +1,14 @@
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\bin\Debug\netcoreapp2.2\WebApiAnimate.deps.json
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\bin\Debug\netcoreapp2.2\WebApiAnimate.runtimeconfig.json
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\bin\Debug\netcoreapp2.2\WebApiAnimate.runtimeconfig.dev.json
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\bin\Debug\netcoreapp2.2\WebApiAnimate.dll
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.csprojAssemblyReference.cache
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.csproj.CoreCompileInputs.cache
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.RazorAssemblyInfo.cache
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.RazorAssemblyInfo.cs
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.AssemblyInfoInputs.cache
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.AssemblyInfo.cs
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.RazorTargetAssemblyInfo.cache
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\bin\Debug\netcoreapp2.2\WebApiAnimate.pdb
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.dll
+C:\Users\apere\source\repos\WebApiAnimate\WebApiAnimate\obj\Debug\netcoreapp2.2\WebApiAnimate.pdb
