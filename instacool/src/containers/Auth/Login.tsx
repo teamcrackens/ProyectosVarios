@@ -1,29 +1,33 @@
 import * as React from 'react';
-import { Link } from 'react-router-dom'
-import Button from '../../componentes/Button'
+import {connect} from 'react-redux'
 import Card from '../../componentes/Card'
-import Center from '../../componentes/Center'
 import Container from '../../componentes/Container'
-import Input from '../../componentes/Input'
-import Title from '../../componentes/Title'
+import LoginForm from '../../componentes/LoginForm'
 
+import { ThunkDispatch } from 'redux-thunk';
+import { ILogin,login as loginThunks  } from '../../ducks/Users'
 
+interface ILoginProps{
+  login: (a: ILogin ) => void
+}
 
-
-export default class Login extends React.Component{
+class Login extends React.Component<ILoginProps>{
   public render(){
+    const { login } = this.props
     return(
       <Container center={true}>
           <Card>
-            <Title>Iniciar Sesión:</Title>
-            <Input label='Email' placeholder='Correo'/>
-            <Input label='Contraseña' placeholder='Contraseña'/>
-            <Button block={true}>Enviar</Button>
-            <Center>
-              <Link to='/register'>Ir al registro</Link>
-            </Center>
+            <LoginForm onSubmit={login}/>
           </Card>
         </Container>
     )
   }
 }
+
+const mapStateToProps = (state: any) => state
+ 
+const mapDispatchToProps = (dispatch: ThunkDispatch<any,any,any>) =>({
+  login: (payload: ILogin) => dispatch(loginThunks(payload))
+})
+
+export default connect(mapStateToProps,mapDispatchToProps)(Login)
