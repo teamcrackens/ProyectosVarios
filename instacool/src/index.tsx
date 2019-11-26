@@ -13,15 +13,15 @@ import services from './services'
 
 import thunk from 'redux-thunk'
 
-const historial = createHistory()
+const history = createHistory()
 const store = createStore(combineReducers({
   ...reducers,
   form: formReducer,
 }),applyMiddleware(thunk.withExtraArgument(services)))
 ReactDOM.render(
   <Provider store={store}>
-    <Router history={historial}>
-      <App />
+    <Router history={history}>
+      <App history={history}/>
      </Router>
   </Provider>,
   document.getElementById('root') as HTMLElement

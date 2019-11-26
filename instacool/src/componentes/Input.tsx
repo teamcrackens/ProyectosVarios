@@ -13,7 +13,7 @@ const style = {
 
 interface IInputProps{
     placeholder?: string,
-    label: string
+    label: string,
 }
 
 const spanStyle ={
@@ -24,11 +24,11 @@ const spanStyle ={
 } as React.CSSProperties
 
 const Input: React.StatelessComponent<WrappedFieldProps & IInputProps> = props => {
-    const {label} = props
+    const {label, input} = props
     return (
         <div>   
             <span style={spanStyle}>{label}</span>
-            <input {...props} style={ style }/>
+            <input {...props} {...input} style={ style }/>
         </div>
         
     )
