@@ -12,7 +12,7 @@
     "core-js": "^2.6.5",
     "git": "^0.1.5",
     "html2canvas": "^1.0.0-rc.3",
-    "jspdf": "^1.4.1",
+    "jspdf": "^2.5.1",
     "jspdf-autotable": "^2.3.5",
     "jwt-decode": "^2.2.0",
     "vue": "^2.6.10",
